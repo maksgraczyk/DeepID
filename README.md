@@ -10,7 +10,7 @@ I have used IntelliJ IDEA Community Edition (which is under the Apache license: 
 * OpenCV: used to detect (**NOT** recognise) human faces in pictures, along with the haarcascade_frontalface_alt.xml resource
 
 ### OpenCV
-If you want to use this source code, you'll need to build and put OpenCV to the project as a library. Version 3.2.0 is recommended. An examplar tutorial how to do it is located at https://medium.com/@aadimator/how-to-set-up-opencv-in-intellij-idea-6eb103c1d45c (accessed on 22 April 2017).
+If you want to use this source code, you'll need to build and put OpenCV to the project as a library. Version 3.2.0 is recommended. One of the tutorials how to do it is located at https://medium.com/@aadimator/how-to-set-up-opencv-in-intellij-idea-6eb103c1d45c (accessed on 22 April 2017).
 
 ## CUDA
 By default, a CPU does all necessary computation related to the project. However, it is possible to use a CUDA-supported graphic card instead. This may increase the speed dramatically and is highly recommended.
