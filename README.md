@@ -30,4 +30,4 @@ License of libraries and other resources used:
 * OpenCV is licensed under the 3-clause BSD license.
 * haarcascade_frontalface_alt.xml file is licensed under the Intel License Agreement For Open Source Computer Vision Library.
 
-All licenses are available at appropriate LICENSE files and in the haarcascade_frontalface_alt.xml file.
+All the licenses are available at appropriate LICENSE files and in the haarcascade_frontalface_alt.xml file.
