@@ -248,7 +248,12 @@ public class MainGUI {
 
             if (files == null)
             {
-                JOptionPane.showMessageDialog(frame, "There are no users! You will be able to create them when taking samples: press \"Take a face sample\" or \"Take a face sample from a file\".", "DeepID", JOptionPane.WARNING_MESSAGE);
+                JOptionPane.showMessageDialog(frame, "There are no users! You must create at least 2 of them. You will be able to do it when taking samples: press \"Take a face sample\" or \"Take a face sample from a file\".", "DeepID", JOptionPane.WARNING_MESSAGE);
+                return;
+            }
+            else if (files.length == 1)
+            {
+                JOptionPane.showMessageDialog(frame, "There is one user only! You must create at least 2 of them. You will be able to do it when taking samples: press \"Take a face sample\" or \"Take a face sample from a file\".", "DeepID", JOptionPane.WARNING_MESSAGE);
                 return;
             }
 
@@ -365,7 +370,6 @@ public class MainGUI {
             statusLabel.setText("Status: " + imagesProcessed + " image(s) has/have been processed so far. " + imagesToProcess + " image(s) ready to be processed.");
             takePictureButton.setEnabled(true);
             takePictureFromFileButton.setEnabled(true);
-            makeAFaceIdentificationAttemptButton.setEnabled(true);
             processAllRemainingImagesButton.setEnabled(true);
             initializeTheModelButton.setEnabled(false);
         }
