@@ -4,10 +4,10 @@ Research project about determining similarities between human faces by using a n
 I have used IntelliJ IDEA Community Edition (which is under the Apache license: http://www.apache.org/licenses/LICENSE-2.0.html) as an IDE to create this project.
 
 ## Libraries used
-* deeplearning4j (Maven: org.deeplearning4j:deeplearning4j-core **and** org.deeplearning4j:deeplearning4j-ui_2.10: used to create a neural network model
+* deeplearning4j (Maven: org.deeplearning4j:deeplearning4j-core **and** org.deeplearning4j:deeplearning4j-ui_2.10: used for creating a neural network model
 * nd4j (Maven: org.nd4j:nd4j-native **or** org.nd4j:nd4j-cuda-\*; see CUDA): a dependency of deeplearning4j
-* webcam-capture written by Bartosz Firyn and contributors (Maven: com.github.sarxos:webcam-capture): used to access a computer webcam
-* OpenCV: used to detect (**NOT** recognise) human faces in pictures, along with the haarcascade_frontalface_alt.xml resource
+* webcam-capture written by Bartosz Firyn and contributors (Maven: com.github.sarxos:webcam-capture): used for accessing a computer webcam
+* OpenCV: used for detecting (**NOT** recognising) human faces in pictures, along with the haarcascade_frontalface_alt.xml resource
 
 ### Versions recommended
 * deeplearning4j: 0.7.2
